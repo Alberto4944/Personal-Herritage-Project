@@ -145,12 +145,23 @@ li a:hover {
     left: 20%;
 }
 
-#Great-grandfather-M {
-
+#Great-grandfather-M-1 {
+    top: 25%;
+    left: 0%;
 }
 
-#Great-grandmother-M {
+#Great-grandmother-M-1 {
     top: 0%;
+    left: 0%;
+}
+
+#Great-grandfather-M-2 {
+    bottom: 0%;
+    left: 0%;
+}
+
+#Great-grandmother-M-2 {
+    bottom: 25%;
     left: 0%;
 }
 
@@ -166,16 +177,27 @@ li a:hover {
     left: 80%;
 }
 
-#Great-grandfather-F {
-
+#Great-grandfather-F-1 {
+    top: 25%;
+    right: 0%;
 }
 
-#Great-grandmother-F {
+#Great-grandmother-F-1 {
     top: 0%;
     right: 0%;
 }
 
-#Albert, #Bing, #Mom, #Dad, #Grandmother-M, #Grandfather-M, #Great-grandfather-M, #Great-grandmother-M, #Grandfather-F, #Grandmother-F,#Great-grandfather-F, #Great-grandmother-F {
+#Great-grandfather-F-2 {
+    bottom: 0%;
+    right: 0%;
+}
+
+#Great-grandmother-F-2 {
+    bottom: 25%;
+    right: 0%;
+}
+
+#Albert, #Bing, #Mom, #Dad, #Grandmother-M, #Grandfather-M, #Great-grandfather-M-1, #Great-grandmother-M-1, #Great-grandfather-M-2, #Great-grandmother-M-2, #Grandfather-F, #Grandmother-F,#Great-grandfather-F-1, #Great-grandmother-F-1, #Great-grandfather-F-2, #Great-grandmother-F-2 {
     width: 115px;
     height: 150px;
     background-color: #ffffff;
