@@ -26,7 +26,7 @@ header {
 li {
     display: inline-block;
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px 1vh;
     list-style: none;
 }
 
@@ -52,7 +52,6 @@ li a:hover {
     transform: translate(-50%, -50%);
 }
 
-
 #CHI {
     margin: auto;
     top: 25%;
@@ -63,8 +62,8 @@ li a:hover {
 #USA, #CAN, #CHI {
     background-color: #ffffff;
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 40vh;
+    height: 30vh;
 }
 
 #arrow-USA {
@@ -73,9 +72,9 @@ li a:hover {
     transform: rotate(35deg);
     transform-origin: left;
     position: absolute;
-    left: 450px;
-    top: 400px;
-    width: 300px;
+    left: 45vh;
+    top: 41vh;
+    width: 30vh;
 }
 
 #arrow-CHI {
@@ -84,14 +83,14 @@ li a:hover {
     transform: rotate(-35deg);
     transform-origin: right;
     position: absolute;
-    right: 450px;
-    top: 400px;
-    width: 300px;
+    right: 45vh;
+    top: 41vh;
+    width: 30vh;
 }
 
 #arrow-CAN {
     background-color: #ffffff;
-    height: 175px;
+    height: 17.5vh;
     width: 10px;
     position: absolute;
     top: 52.5%;
@@ -106,6 +105,79 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    width: 500px;
-    height: 300px;
+    width: 50vh;
+    height: 30vh;
+}
+
+#Albert {
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+}
+
+#Bing {
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+
+#Mom {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 65%;
+}
+
+#Dad {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 35%;
+}
+
+#Grandfather-M {
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 20%;
+}
+
+#Grandmother-M {
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 20%;
+}
+
+#Great-grandfather-M {
+
+}
+
+#Great-grandmother-M {
+    top: 0%;
+    left: 0%;
+}
+
+#Grandfather-F {
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 80%;
+}
+
+#Grandmother-F {
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 80%;
+}
+
+#Great-grandfather-F {
+
+}
+
+#Great-grandmother-F {
+    top: 0%;
+    right: 0%;
+}
+
+#Albert, #Bing, #Mom, #Dad, #Grandmother-M, #Grandfather-M, #Great-grandfather-M, #Great-grandmother-M, #Grandfather-F, #Grandmother-F,#Great-grandfather-F, #Great-grandmother-F {
+    width: 115px;
+    height: 150px;
+    background-color: #ffffff;
+    position: absolute;
 }
