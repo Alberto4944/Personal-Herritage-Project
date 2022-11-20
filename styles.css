@@ -10,7 +10,7 @@
 }
 
 a, li {
-    font-size: 25px;
+    font-size: 30px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -20,7 +20,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     padding-top: 10px;
-    padding-left: 600px;
+    padding-left: 550px;
 }
 
 li {
@@ -35,16 +35,7 @@ li a {
 }
 
 li a:hover {
-    color: #2da940
-}
-
-#intro {
-    font-size: 25px;
-    height: 400px;
-    width: 600px;
-    overflow: auto;
-    background-color: #fd8054 ;
-    text-align: center;
+    color: #fd8054
 }
 
 #USA {
@@ -72,8 +63,8 @@ li a:hover {
 #USA, #CAN, #CHI {
     background-color: #ffffff;
     position: absolute;
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
 }
 
 #arrow-USA {
@@ -111,10 +102,10 @@ li a:hover {
 #all {
     background-color: #ffffff;
     margin: auto;
-    top: 77.5%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     width: 500px;
-    height: 250px;
+    height: 300px;
 }
