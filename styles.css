@@ -20,7 +20,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     padding-top: 10px;
-    padding-left: 500px;
+    padding-left: 600px;
 }
 
 li {
@@ -47,3 +47,74 @@ li a:hover {
     text-align: center;
 }
 
+#USA {
+    margin: auto;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#CAN {
+    margin: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#CHI {
+    margin: auto;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#USA, #CAN, #CHI {
+    background-color: #ffffff;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+}
+
+#arrow-USA {
+    border-bottom: 10px solid #ffffff;
+    width: 45%;
+    transform: rotate(35deg);
+    transform-origin: left;
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    width: 300px;
+}
+
+#arrow-CHI {
+    border-bottom: 10px solid #ffffff;
+    width: 45%;
+    transform: rotate(-35deg);
+    transform-origin: right;
+    position: absolute;
+    right: 450px;
+    top: 400px;
+    width: 300px;
+}
+
+#arrow-CAN {
+    background-color: #ffffff;
+    height: 175px;
+    width: 10px;
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#all {
+    background-color: #ffffff;
+    margin: auto;
+    top: 77.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 500px;
+    height: 250px;
+}
