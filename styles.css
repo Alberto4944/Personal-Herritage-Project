@@ -9,6 +9,7 @@
     background-color: #202124;
 }
 
+/* Header */
 a, li {
     font-size: 30px;
     color: #ffffff;
@@ -38,6 +39,8 @@ li a:hover {
     color: #fd8054
 }
 
+/* Myself */
+
 #USA {
     margin: auto;
     top: 25%;
@@ -66,6 +69,7 @@ li a:hover {
     height: 30vh;
 }
 
+/* Myself Arrows */ 
 #arrow-USA {
     border-bottom: 10px solid #ffffff;
     width: 45%;
@@ -98,6 +102,7 @@ li a:hover {
     transform: translate(-50%, -50%);
 }
 
+/* Family Tree Div Boxes */
 #all {
     background-color: #ffffff;
     margin: auto;
@@ -202,4 +207,123 @@ li a:hover {
     height: 150px;
     background-color: #ffffff;
     position: absolute;
+}
+
+/* Family Tree Arrows */
+#arrow-1-M, #arrow-2-M, #arrow-3-M, #arrow-4-M, #arrow-5-M, #arrow-6-M, #arrow-7-M, #arrow-8-M, #arrow-1-F, #arrow-2-F, #arrow-3-F, #arrow-4-F, #arrow-5-F, #arrow-6-F, #arrow-7-F, #arrow-8-F {
+    border-bottom: 10px solid #ffffff;
+    position: absolute;
+    width: 17.5vh
+}
+
+#arrow-1-M {
+    transform: rotate(37.5deg);
+    transform-origin: left;
+    left: 15vh;
+    top: 7.5vh;
+}
+
+#arrow-2-M {
+    transform: rotate(-20deg);
+    transform-origin: left;
+    left: 15vh;
+    top: 35vh;
+}
+
+#arrow-3-M {
+    transform: rotate(-37.5deg);
+    transform-origin: left;
+    left: 15vh;
+    bottom: 7.5vh;
+}
+
+#arrow-4-M {
+    transform: rotate(20deg);
+    transform-origin: left;
+    left: 15vh;
+    bottom: 35vh;
+}
+
+#arrow-5-M {
+    transform: rotate(45deg);
+    transform-origin: left;
+    left: 50vh;
+    top: 30vh;
+}
+
+#arrow-6-M {
+    transform: rotate(-45deg);
+    transform-origin: left;
+    left: 50vh;
+    bottom: 30vh;
+}
+
+#arrow-7-M {
+    transform: rotate(-40deg);
+    transform-origin: right;
+    left: 75vh;
+    top: 35vh;
+}
+
+#arrow-8-M {
+    transform: rotate(40deg);
+    transform-origin: right;
+    left: 75vh;
+    bottom: 35vh;
+}
+
+#arrow-1-F {
+    transform: rotate(-37.5deg);
+    transform-origin: right;
+    right: 15vh;
+    top: 7.5vh;
+}
+
+#arrow-2-F {
+    transform: rotate(20deg);
+    transform-origin: right;
+    right: 15vh;
+    top: 35vh;
+}
+
+#arrow-3-F {
+    transform: rotate(37.5deg);
+    transform-origin: right;
+    right: 15vh;
+    bottom: 7.5vh;
+}
+
+#arrow-4-F {
+    transform: rotate(-20deg);
+    transform-origin: right;
+    right: 15vh;
+    bottom: 35vh;
+}
+
+#arrow-5-F {
+    transform: rotate(-45deg);
+    transform-origin: right;
+    right: 50vh;
+    top: 30vh;
+}
+
+#arrow-6-F {
+    transform: rotate(45deg);
+    transform-origin: right;
+    right: 50vh;
+    bottom: 30vh;
+}
+
+#arrow-7-F {
+    transform: rotate(40deg);
+    transform-origin: left;
+    right: 75vh;
+    top: 35vh;
+}
+
+#arrow-8-F {
+    transform: rotate(-40deg);
+    transform-origin: left;
+    right: 75vh;
+    bottom: 35vh;
 }
