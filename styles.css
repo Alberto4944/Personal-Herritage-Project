@@ -6,7 +6,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    background-color: #202124;
+    
 }
 
 /* Header */
@@ -326,4 +326,11 @@ li a:hover {
     transform-origin: left;
     right: 75vh;
     bottom: 35vh;
+}
+
+.BG {
+    background-image: url(images/13346170_1045367792167420_1424260411726211748_o.jpg);
+}
+body html {
+    height: 100%;
 }
