@@ -345,3 +345,14 @@ li a:hover {
 .active {
     color: #fd8054
 }
+
+ul{
+   width: 100%;
+   display: table;
+   text-align: center;
+}
+
+ul li{
+     display: inline-block;
+     float: none;
+}
