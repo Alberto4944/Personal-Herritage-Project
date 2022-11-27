@@ -1,330 +1,201 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+body {
     background-color: #202124;
 }
 
-/* Header */
-a, li {
-    font-size: 30px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    padding: 30px 10%;
-    padding-top: 10px;
-    padding-left: 550px;
-}
-
-li {
-    display: inline-block;
-    text-align: center;
-    padding: 0px 1vh;
-    list-style: none;
-}
-
-li a {
-    transition: all 0.3s ease 0s;
-}
-
-li a:hover {
-    color: #fd8054
-}
-
 /* Myself */
-
 #USA {
-    margin: auto;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    top: 25vh;
+    left: 25vw;
 }
 
 #CAN {
-    margin: auto;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 25vh;
+    left: 50vw;
 }
 
 #CHI {
-    margin: auto;
-    top: 25%;
-    left: 75%;
-    transform: translate(-50%, -50%);
+    top: 25vh;
+    left: 75vw;
 }
 
 #USA, #CAN, #CHI {
+    transform: translate(-50%, -50%);
     background-color: #ffffff;
+    margin: auto;
     position: absolute;
-    width: 40vh;
+    width: 19.5vw;
     height: 30vh;
+}
+
+#all {
+    background-color: #ffffff;
+    top: 80%;
+    left: 50%;
+    width: 24.5vw;
+    height: 30vh;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 /* Myself Arrows */ 
 #arrow-USA {
-    border-bottom: 10px solid #ffffff;
-    width: 45%;
     transform: rotate(35deg);
     transform-origin: left;
-    position: absolute;
-    left: 45vh;
-    top: 41vh;
-    width: 30vh;
+    left: 22.5vw;
 }
 
 #arrow-CHI {
-    border-bottom: 10px solid #ffffff;
-    width: 45%;
     transform: rotate(-35deg);
     transform-origin: right;
-    position: absolute;
-    right: 45vh;
-    top: 41vh;
-    width: 30vh;
+    right: 22.5vw;
 }
 
 #arrow-CAN {
     background-color: #ffffff;
     height: 17.5vh;
-    width: 10px;
+    width: 1.15vh;
     position: absolute;
-    top: 52.5%;
-    left: 50%;
+    top: 52.5vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
+}
+
+#arrow-USA, #arrow-CHI {
+    border-bottom: 0.6vw solid #ffffff;
+    position: absolute;
+    width: 15vw;
+    top: 42vh;
 }
 
 /* Family Tree Div Boxes */
-#all {
-    background-color: #ffffff;
-    margin: auto;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 50vh;
-    height: 30vh;
-}
-
 #Albert {
     transform: translate(-50%, -50%);
-    top: 60%;
-    left: 50%;
+    top: 60vh;
+    left: 30vw;
 }
 
 #Bing {
     transform: translate(-50%, -50%);
-    top: 40%;
-    left: 50%;
+    top: 40vh;
+    left: 30vw;
 }
 
-#Mom {
+#Mom, #Dad {
     transform: translate(-50%, -50%);
-    top: 50%;
-    left: 65%;
+    top: 50vh;
+    left: 45vw;
 }
 
-#Dad {
+
+#Grandfather-F, #Grandfather-M {
     transform: translate(-50%, -50%);
-    top: 50%;
-    left: 35%;
+    top: 70vh;
+    left: 60vw;
 }
 
-#Grandfather-M {
+#Grandmother-F, #Grandmother-M {
     transform: translate(-50%, -50%);
-    top: 70%;
-    left: 20%;
+    top: 30vh;
+    left: 60vw;
 }
 
-#Grandmother-M {
-    transform: translate(-50%, -50%);
-    top: 30%;
-    left: 20%;
+#Great-grandfather-F-1, #Great-grandfather-M-1 {
+    top: 25vh;
+    right: 20vw;
 }
 
-#Great-grandfather-M-1 {
-    top: 25%;
-    left: 0%;
+#Great-grandmother-F-1, #Great-grandmother-M-1 {
+    top: 0vh;
+    right: 20vw;
 }
 
-#Great-grandmother-M-1 {
-    top: 0%;
-    left: 0%;
+#Great-grandfather-F-2, #Great-grandfather-M-2 {
+    bottom: 0vh;
+    right: 20vw;
 }
 
-#Great-grandfather-M-2 {
-    bottom: 0%;
-    left: 0%;
-}
-
-#Great-grandmother-M-2 {
-    bottom: 25%;
-    left: 0%;
-}
-
-#Grandfather-F {
-    transform: translate(-50%, -50%);
-    top: 70%;
-    left: 80%;
-}
-
-#Grandmother-F {
-    transform: translate(-50%, -50%);
-    top: 30%;
-    left: 80%;
-}
-
-#Great-grandfather-F-1 {
-    top: 25%;
-    right: 0%;
-}
-
-#Great-grandmother-F-1 {
-    top: 0%;
-    right: 0%;
-}
-
-#Great-grandfather-F-2 {
-    bottom: 0%;
-    right: 0%;
-}
-
-#Great-grandmother-F-2 {
-    bottom: 25%;
-    right: 0%;
+#Great-grandmother-F-2, #Great-grandmother-M-2 {
+    bottom: 25vh;
+    right: 20vw;
 }
 
 #Albert, #Bing, #Mom, #Dad, #Grandmother-M, #Grandfather-M, #Great-grandfather-M-1, #Great-grandmother-M-1, #Great-grandfather-M-2, #Great-grandmother-M-2, #Grandfather-F, #Grandmother-F,#Great-grandfather-F-1, #Great-grandmother-F-1, #Great-grandfather-F-2, #Great-grandmother-F-2 {
-    width: 115px;
-    height: 150px;
+    width: 6vw;
+    height: 16vh;
     background-color: #ffffff;
     position: absolute;
 }
 
 /* Family Tree Arrows */
 #arrow-1-M, #arrow-2-M, #arrow-3-M, #arrow-4-M, #arrow-5-M, #arrow-6-M, #arrow-7-M, #arrow-8-M, #arrow-1-F, #arrow-2-F, #arrow-3-F, #arrow-4-F, #arrow-5-F, #arrow-6-F, #arrow-7-F, #arrow-8-F {
-    border-bottom: 10px solid #ffffff;
+    border-bottom: 1.15vh solid #ffffff;
     position: absolute;
     width: 17.5vh
 }
 
-#arrow-1-M {
-    transform: rotate(37.5deg);
-    transform-origin: left;
-    left: 15vh;
+#arrow-1-F, #arrow-1-M {
+    transform: rotate(-37.5deg);
+    transform-origin: right;
+    right: 28vw;
     top: 7.5vh;
 }
 
-#arrow-2-M {
+#arrow-2-F, #arrow-2-M {
+    transform: rotate(20deg);
+    transform-origin: right;
+    right: 27.5vw;
+    top: 35vh;
+}
+
+#arrow-3-F, #arrow-3-M {
     transform: rotate(-20deg);
-    transform-origin: left;
-    left: 15vh;
-    top: 35vh;
-}
-
-#arrow-3-M {
-    transform: rotate(-37.5deg);
-    transform-origin: left;
-    left: 15vh;
-    bottom: 7.5vh;
-}
-
-#arrow-4-M {
-    transform: rotate(20deg);
-    transform-origin: left;
-    left: 15vh;
+    transform-origin: right;
+    right: 27.5vw;
     bottom: 35vh;
 }
 
-#arrow-5-M {
-    transform: rotate(45deg);
-    transform-origin: left;
-    left: 50vh;
-    top: 30vh;
-}
-
-#arrow-6-M {
-    transform: rotate(-45deg);
-    transform-origin: left;
-    left: 50vh;
-    bottom: 30vh;
-}
-
-#arrow-7-M {
-    transform: rotate(-40deg);
-    transform-origin: right;
-    left: 75vh;
-    top: 35vh;
-}
-
-#arrow-8-M {
-    transform: rotate(40deg);
-    transform-origin: right;
-    left: 75vh;
-    bottom: 35vh;
-}
-
-#arrow-1-F {
-    transform: rotate(-37.5deg);
-    transform-origin: right;
-    right: 15vh;
-    top: 7.5vh;
-}
-
-#arrow-2-F {
-    transform: rotate(20deg);
-    transform-origin: right;
-    right: 15vh;
-    top: 35vh;
-}
-
-#arrow-3-F {
+#arrow-4-F, #arrow-4-M {
     transform: rotate(37.5deg);
     transform-origin: right;
-    right: 15vh;
+    right: 28vw;
     bottom: 7.5vh;
 }
 
-#arrow-4-F {
-    transform: rotate(-20deg);
-    transform-origin: right;
-    right: 15vh;
-    bottom: 35vh;
-}
-
-#arrow-5-F {
+#arrow-5-F, #arrow-5-M {
     transform: rotate(-45deg);
     transform-origin: right;
-    right: 50vh;
+    right: 45vw;
     top: 30vh;
 }
 
-#arrow-6-F {
+#arrow-6-F, #arrow-6-M {
     transform: rotate(45deg);
     transform-origin: right;
-    right: 50vh;
+    right: 45vw;
     bottom: 30vh;
 }
 
-#arrow-7-F {
+#arrow-7-F, #arrow-7-M {
     transform: rotate(40deg);
     transform-origin: left;
-    right: 75vh;
+    right: 57.5vw;
     top: 35vh;
 }
 
-#arrow-8-F {
+#arrow-8-F, #arrow-8-M {
     transform: rotate(-40deg);
     transform-origin: left;
-    right: 75vh;
+    right: 57.5vw;
     bottom: 35vh;
 }
 
@@ -340,8 +211,4 @@ li a:hover {
     100% {
         opacity: 1;
     }
-}
-
-.active {
-    color: #fd8054
 }
