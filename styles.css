@@ -212,3 +212,22 @@ body {
         opacity: 1;
     }
 }
+
+/* Close Family */
+#MOM, #DAD {
+    background-color: #ffffff;
+    top: 50vh;
+    margin: auto;
+    position: absolute;
+    width: 35vw;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+}
+
+#MOM {
+    left: 30vw;
+}
+
+#DAD {
+    left: 70vw;
+}
