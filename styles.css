@@ -1,4 +1,8 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -13,17 +17,14 @@ body {
 
 /* Myself */
 #USA {
-    top: 25vh;
     left: 25vw;
 }
 
 #CAN {
-    top: 25vh;
     left: 50vw;
 }
 
 #CHI {
-    top: 25vh;
     left: 75vw;
 }
 
@@ -34,6 +35,7 @@ body {
     position: absolute;
     width: 19.5vw;
     height: 30vh;
+    top: 25vh;
 }
 
 #all {
@@ -230,4 +232,48 @@ body {
 
 #DAD {
     left: 70vw;
+}
+
+.home-bg {
+    background-image: url("imgs/china.jpg");
+}
+
+#hard-describe {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    right: 60vw;
+}
+
+#culture {
+    color: 	rgb(43, 35, 35);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    text-align: center;
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    right: 60vw;
+}
+
+#button {
+    background-color: white;
+    font-size: 1.75vw;
+    border-radius: 1vw;
+    position: absolute;
+    top: 75vh;
+    left: 10vw;
+    right: 60vw;
+    border: none;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
