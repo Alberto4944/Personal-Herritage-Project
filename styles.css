@@ -17,19 +17,19 @@ body {
 }
 
 /* Myself */
-#USA {
+.USA {
     left: 22.5vw;
 }
 
-#CAN {
+.CAN {
     left: 50vw;
 }
 
-#CHI {
+.CHI {
     left: 77.5vw;
 }
 
-#USA, #CAN, #CHI {
+.USA, .CAN, .CHI {
     transform: translate(-50%, -50%);
     background-color: #ffffff;
     margin: auto;
@@ -37,9 +37,10 @@ body {
     width: 22.5vw;
     height: 35vh;
     top: 22.5vh;
+    transition: 0.75s;
 }
 
-#all {
+.all {
     background-color: #ffffff;
     top: 81vh;
     left: 50vw;
@@ -48,6 +49,7 @@ body {
     margin: auto;
     position: absolute;
     transform: translate(-50%, -50%);
+    transition: 1s;
 }
 
 /* Myself Arrows */ 
@@ -65,7 +67,7 @@ body {
 
 #arrow-CAN {
     background-color: #ffffff;
-    height: 17.5vh;
+    height: 12.5vh;
     width: 1.15vh;
     position: absolute;
     top: 52.5vh;
@@ -76,7 +78,7 @@ body {
 #arrow-USA, #arrow-CHI {
     border-bottom: 0.6vw solid #ffffff;
     position: absolute;
-    width: 15vw;
+    width: 12.5vw;
     top: 42vh;
 }
 
@@ -290,6 +292,40 @@ body {
 #img {
     top: 0;
     right: 0;
-    position: absolute;
+    position: relative;
     width: 3vw;
+}
+
+.COUNTRY-INFO {
+    position: relative;
+    font-size: .8vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.USA:hover, .CAN:hover, .CHI:hover {
+    scale: 112.5%;
+}
+
+.all:hover {
+    scale: 112.5%;
+}
+
+#USA-2, #CAN-2, #CHI-2 {
+    width: 3vw;
+    position: absolute;
+    top: 0;
+}
+
+#USA-2 {
+    left: 0;
+}
+
+.m {
+    right: 14vw;
+    position: absolute;
+}
+
+#CHI-2 {
+    right: 0;
 }
