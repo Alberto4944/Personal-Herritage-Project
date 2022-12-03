@@ -38,6 +38,7 @@ body {
     height: 35vh;
     top: 22.5vh;
     transition: 0.75s;
+    border-radius: 1vw;
 }
 
 .all {
@@ -50,6 +51,7 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     transition: 1s;
+    border-radius: 1vw;
 }
 
 /* Myself Arrows */ 
@@ -144,6 +146,7 @@ body {
     align-items: center;
     font-size: 30px;
     text-align: center;
+    border-radius: 1vw;
 }
 
 /* Family Tree Arrows */
@@ -151,6 +154,7 @@ body {
     border-bottom: 1.15vh solid #ffffff;
     position: absolute;
     width: 17.5vh;
+    border-radius: 1vw;
 }
 
 #arrow-1-F, #arrow-1-M {
@@ -226,12 +230,13 @@ body {
 /* Close Family */
 .MOM, .DAD {
     background-color: #ffffff;
-    top: 50vh;
+    top: 42.5vh;
     margin: auto;
     position: absolute;
     width: 35vw;
-    height: 90vh;
+    height: 80vh;
     transform: translate(-50%, -50%);
+    border-radius: 1.5vw;
 }
 
 .MOM {
@@ -255,6 +260,18 @@ body {
 .home-bg {
     background-image: url("imgs/china.jpg");
     background-size: 100% auto;
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #hard-describe {
@@ -309,6 +326,7 @@ body {
     right: 0;
     position: relative;
     width: 3vw;
+    border-radius: 0.4vw;
 }
 
 .COUNTRY-INFO {
@@ -330,6 +348,7 @@ body {
     width: 3vw;
     position: absolute;
     top: 0;
+    border-radius: 0.4vw;
 }
 
 #USA-2 {
@@ -357,7 +376,7 @@ body {
     width: 7.5vw;
     transition: 0.75s;
     position: absolute;
-    top: 40vh;
+    top: 25vh;
     right: 0vw;
 }
 
@@ -369,4 +388,60 @@ body {
 
 .family-text {
     padding: 1vh;
+    font-size: 20px;
+}
+
+.impact {
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    left: 55vw;
+    transition: 1s ease;
+    top: 27.5vw;
+    scale: 0;
+    border: 5px solid rgb(99, 93, 93);
+    border-radius: 2.5vw;
+}
+
+.fam {
+    z-index: 2;
+    height: 7.5vh;
+    width: 20vw;
+    position: absolute;
+    top: 85vh;
+    left: 40vw;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.fam:checked ~ .impact {
+    position: absolute;
+    scale: 150%;
+}
+
+.but {
+    z-index: 1;
+    height: 7.5vh;
+    width: 15vw;
+    position: absolute;
+    top: 85vh;
+    left: 42.5vw;
+    border-radius: 20vw;
+    transition: 1s;
+    font-size: 2.25vw;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.fam:checked ~ .but {
+    scale: 50%;
+    border-radius: 20vw;
+}
+
+.fam:checked {
+    scale: 37.5%;
+    border-radius: 20vw;
 }
