@@ -642,16 +642,18 @@ body {
 
 h2 {
     color: white;
-    font-size: 1.25vw;
+    font-size: 1.1vw;
 }
 
 li {
     color: white;
     list-style-position: inside;
     font-size: 0.8vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
 }
 
-#dumpling, #rice {
+.img{
     height: 15.5vh;
     top: 2.9vh;
     position: absolute;
@@ -659,14 +661,14 @@ li {
     transition: 0.5s;
 }
 
-#dumpling {
+#left {
     left: 0.4vw;
 }
 
-#rice {
+#right {
     right: 0.4vw;
 }
 
-#dumpling:hover, #rice:hover {
+.img:hover {
     scale: 150%;
 }
