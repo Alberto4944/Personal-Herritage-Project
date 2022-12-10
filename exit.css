@@ -1,0 +1,125 @@
+#food:checked ~ .button1 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#food:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#traditions:checked ~ .button2 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#traditions:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#sports:checked ~ .button3 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#sports:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#attitude:checked ~ .button4 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#attitude:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#tempo:checked ~ .button5 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#tempo:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#conversations:checked ~ .button6 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#conversations:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#cleanliness:checked ~ .button7 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#cleanliness:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#parenting:checked ~ .button8 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#parenting:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
+
+#games:checked ~ .button9 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#games:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}

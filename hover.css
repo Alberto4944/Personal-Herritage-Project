@@ -1,0 +1,55 @@
+.butts > #food:hover ~ .button1 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+.butts > #traditions:hover ~ .button2 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #sports:hover ~ .button3 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #attitude:hover ~ .button4 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #tempo:hover ~ .button5 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #conversations:hover ~ .button6 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #cleanliness:hover ~ .button7 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #parenting:hover ~ .button8 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+
+.butts > #games:hover ~ .button9 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+#food:hover, #traditions:hover, #sports:hover, #attitude:hover, #tempo:hover, #conversations:hover, #cleanliness:hover, #parenting:hover, #games:hover {
+    scale: 150%;
+}

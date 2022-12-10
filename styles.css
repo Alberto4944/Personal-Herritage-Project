@@ -395,8 +395,10 @@ body {
 
 .impact {
     width: 20vw;
-    height: 50vh;
-    background-color: white;
+    height: 47vh;
+    background-image: url(imgs/iceberg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     position: absolute;
     margin: auto;
     transform: translate(-50%, -50%);
@@ -404,15 +406,9 @@ body {
     transition: 1s ease;
     top: 27.5vw;
     scale: 0;
-    border: 5px solid rgb(99, 93, 93);
+    border: 1vw solid #202124;
     border-radius: 2.5vw;
     text-align: center;
-}
-
-.impact > h5 {
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
-    font-size: .675vw;
 }
 
 .fam {
@@ -466,12 +462,12 @@ body {
 }
 
 .butts > button {
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
     color: black;
     position: absolute;
     text-align: center;
-    font-size: 0.5vw;
+    font-size: 0.3vw;
     background-color: #202124;
     border: none;
     color: white;
@@ -479,57 +475,58 @@ body {
     font-weight: 600;
     cursor: pointer;
     z-index: 1;
+    transition: .4s;
 }
 
 .butts > input {
-    width: 4vw;
     position: absolute;
     z-index: 2;
     border-radius: 50%;
-    width: 3vw;
-    height: 3vw;
+    width: 2vw;
+    height: 2vw;
     opacity: 0;
     cursor: pointer;
+    transition: .4s;
 }
 
 .button1 {
-    left: 3vw;
-    top: 22.5vh;
+    left: 7.75vw;
+    top: 5vh;
 }
 
 #food {
-    left: 3.25vw;
-    top: 23vh;
+    left: 8vw;
+    top: 5.5vh;
 }
 
 .button2 {
-    left: 8.3vw;
-    top: 22.5vh;
+    left: 9vw;
+    top: 17.5vh;
 }
 
 #traditions {
-    left: 8.5vw;
-    top: 23vh;
+    left: 9.25vw;
+    top: 18vh;
 }
 
 .button3 {
-    right: 3vw;
-    top: 22.5vh;
+    left: 5vw;
+    top: 10vh;
 }
 
 #sports {
-    right: 3.25vw;
-    top: 23vh;
+    left: 5.25vw;
+    top: 10.5vh;
 }
 
 .button4 {
-    left: 3vw;
-    top: 31.5vh;
+    left: 13vw;
+    top: 30vh;
 }
 
 #attitude {
-    left: 3.25vw;
-    top: 32vh;
+    left: 13.25vw;
+    top: 30.5vh;
 }
 
 .button5 {
@@ -543,43 +540,43 @@ body {
 }
 
 .button6 {
-    right: 3vw;
-    top: 31.5vh;
+    left: 5vw;
+    top: 23vh;
 }
 
 #conversations {
-    right: 3.25vw;
-    top: 32vh;
+    left: 5.25vw;
+    top: 23.5vh;
 }
 
 .button7 {
-    left: 3vw;
+    left: 10vw;
     top: 40.5vh;
 }
 
 #cleanliness {
-    left: 3.25vw;
+    left: 10.25vw;
     top: 41vh;
 }
 
 .button8 {
-    left: 8.3vw;
-    top: 40.5vh;
+    left: 14vw;
+    top: 22vh;
 }
 
 #parenting {
-    left: 8.5vw;
-    top: 41vh;
+    left: 14.25vw;
+    top: 22.5vh;
 }
 
 .button9 {
-    right: 3vw;
-    top: 40.5vh;
+    left: 12vw;
+    top: 9.5vh;
 }
 
 #games {
-    right: 3.25vw;
-    top: 41vh;
+    left: 12.25vw;
+    top: 10vh;
 }
 
 .butts > .food, .traditions, .sports, .attitude, .tempo, .conversations, .cleanliness, .parenting, .games {
@@ -591,7 +588,7 @@ body {
     z-index: 1;
     scale: 0;
     left: 0vw;
-    border-radius: 2.2vw;
+    border-radius: 1vw;
     background-color: #202124;
 }
 
@@ -649,9 +646,9 @@ h2 {
 li {
     color: white;
     list-style-position: inside;
-    font-size: 0.8vw;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    font-size: 0.75vw;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
 }
 
 .img{
