@@ -707,7 +707,7 @@ li {
     position: absolute;
     z-index: 4;
     font-size: 0.9vw;
-    top: 5vh;
+    top: 4vh;
     padding: 1vw;
 }
 
@@ -744,8 +744,8 @@ span {
     background-color: #ffffff;
     transform: translate(-50%, -50%);
     left: 50vw;
-    top: 50%;
-    font-size: 1.5vw;
+    top: 35vh;
+    font-size: 1.35vw;
     padding: 2vw 2vh;
     border-radius: 2vw;
     animation: scaleinAnimation ease 3s;
@@ -770,4 +770,21 @@ b {
     100% {
         scale: 100%;
     }
+}
+
+#learn {
+    color: #202124;
+    width: 35vw;
+    position: absolute;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    top: 75vh;
+    font-size: 1.35vw;
+    padding: 1vw 1vh;
+    border-radius: 2vw;
+    animation: scaleinAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-weight: 800;
 }
