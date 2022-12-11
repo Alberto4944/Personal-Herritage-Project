@@ -788,3 +788,25 @@ b {
     animation-fill-mode: forwards;
     font-weight: 800;
 }
+
+#gitlogo {
+    position: absolute;
+    height: 7.5vh;
+    width: 7.5vh;
+    left: 97vw;
+    top: 95vh;
+    border-radius: 50%;
+    border: none;
+    transform: translate(-50%, -50%);
+}
+
+#code {
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 95vw;
+    top: 95vh;
+    width: 10vw;
+    font-size: 1vw;
+    font-weight: 600;
+}
