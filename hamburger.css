@@ -8,6 +8,7 @@
     left: 1vw;
     cursor: pointer;
     opacity: 0;
+    z-index: 15;
 }
   
 .hamburger{
@@ -59,6 +60,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   
 .toggler:checked + .hamburger > div{
     background: rgba(0,0,0,0);
+    z-index: 13;
 }
   
 .toggler:checked + .hamburger > div::before{
@@ -75,14 +77,15 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     background: black;
 }
   
-  
 /* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT :  */
   
 .menu{
     background: white;
     width: 0%;
     height: 100vh;
-    
+    border-top-right-radius: 5vw; border-bottom-right-radius: 5vw;
+    z-index: 10;
+    position: relative;    
     /* APPLYING TRANSITION TO THE MENU :  */
     
     transition: all 0.4s ease;
@@ -91,7 +94,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 30% , CREATING A SMOOTH EFFECT :  */
   
 .toggler:checked ~ .menu{
-    width: 30vw;
+    width: 30vw;;
 }
   
   
@@ -127,14 +130,13 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 }
 
 .toggler:checked ~ .menu > div > ul > li > a:hover{
-    color: red;
+    color: #f8770e;
 }
 
 .menu > div > ul > li > a{
     color: black;
     text-decoration: none;
     font-size: 1.3vw;
-
 }
  
 .toggler:checked ~ .menu{

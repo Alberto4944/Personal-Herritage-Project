@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 body {
@@ -139,21 +139,21 @@ body {
 }
 
 #Albert, #Bing, #Mom, #Dad, #Grandmother-M, #Grandfather-M, #Great-grandfather-M-1, #Great-grandmother-M-1, #Great-grandfather-M-2, #Great-grandmother-M-2, #Grandfather-F, #Grandmother-F,#Great-grandfather-F-1, #Great-grandmother-F-1, #Great-grandfather-F-2, #Great-grandmother-F-2 {
-    width: 7vw;
-    height: 18vh;
+    width: 6vw;
+    height: 17vh;
     background-color: #ffffff;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.25vw;
     text-align: center;
     border-radius: 1vw;
 }
 
 /* Family Tree Arrows */
 #arrow-1-M, #arrow-2-M, #arrow-3-M, #arrow-4-M, #arrow-5-M, #arrow-6-M, #arrow-7-M, #arrow-8-M, #arrow-1-F, #arrow-2-F, #arrow-3-F, #arrow-4-F, #arrow-5-F, #arrow-6-F, #arrow-7-F, #arrow-8-F {
-    border-bottom: 1.15vh solid #ffffff;
+    border-bottom: 1vh solid #ffffff;
     position: absolute;
     width: 17.5vh;
     border-radius: 1vw;
@@ -277,50 +277,36 @@ body {
 }
 
 #hard-describe {
-    color: black;
     font-weight: 900;
-    font-size: 3vw;
-    position: absolute;
-    top: 5vh;  
-    left: 12.5vw;
-    background-color: white;
-    opacity: 75%;
-    border-radius: 2vw;
-    padding: 1vh;
-    width: 29vw;
-    text-align: center;
+    font-size: 6vh;
+    top: 15vh;  
 }
 
 #culture {
-    color: black;
     font-weight: 800;
-    font-size: 2vw;
-    text-align: center;
-    position: absolute;
-    top: 35vh;
-    left: 12.5vw;
-    right: 57.5vw;
-    background-color: white;
-    opacity: 75%;
-    border-radius: 2vw;
-    padding: 1vh;
+    font-size: 4vh;
+    top: 27.5vh;
 }
 
 #button {
-    background-color: white;
-    font-size: 1.5vw;
-    border-radius: 1vw;
-    position: absolute;
-    top: 86.5vh;
-    left: 12.5vw;
-    right: 57.5vw;
-    border: none;
-    color: black;
-    text-decoration: none;
-    padding: 1vh 1vw;
-    text-align: center;
     font-weight: 700;
-    opacity: 75%;
+    font-size: 3vh;
+    top: 79vh;
+}
+
+#hard-describe, #culture, #button {
+    color: black;
+    opacity: 80%;
+    background-color: white;
+    border-radius: 2vw;
+    position: absolute;
+    text-align: center;
+    left: 12.5vw;
+    width: 29vw;
+    width: 29vw;
+    padding: 1vh;
+    border: none;
+    text-decoration: none;
 }
 
 #img {
@@ -380,17 +366,20 @@ body {
     position: absolute;
     top: 25vh;
     right: 0vw;
+    z-index: 5;
+    border-radius: .4vw;
 }
 
 .map:hover {
     scale: 467%;
     position: absolute;
     transform-origin: right;
+    z-index: 5;
 }
 
 .family-text {
     padding: 1vh;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .impact {
@@ -453,8 +442,8 @@ body {
 
 .impact > h1{
     font-size: 1.5vw;
-    font-weight: 700;
-
+    font-weight: 900;
+    color: black;
 }
 
 .dad, .mom {
@@ -669,4 +658,116 @@ li {
 
 .img:hover {
     scale: 150%;
+}
+
+.connection-s,.connection-y {
+    background-color: #202124;
+    width: 30vw;
+    height: 32.5vh;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    top: 62.5vh;
+    border-radius: 3vw;
+}
+
+.con {
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 4;
+    position: absolute;
+    left: 50%;
+    top: 2.5vh;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.line {
+    width: 0.3vw;
+    z-index: 4;
+    height: 27vh;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 55%;
+}
+
+.then {
+    left: 0;
+}
+
+.now {
+    right: 0;
+}
+
+
+.thenp, .nowp {
+    color: white;
+    position: absolute;
+    z-index: 4;
+    font-size: 0.9vw;
+    top: 5vh;
+    padding: 1vw;
+}
+
+.now, .then {
+    z-index: 5;
+    width: 15vw;
+    height: 32.5vh;
+    border-radius: 3vw;
+    position: absolute;
+}
+
+.thenh {
+    left: 50%;
+}
+
+.thenn {
+    right: 35%;
+}
+
+.thenh, .thenn {
+    color: white;
+    z-index: 4;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 12.5%;
+    font-weight: 700;
+    font-size: 1.25vw;
+}
+
+span {
+    color: #202124;
+    width: 35vw;
+    position: absolute;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    top: 50%;
+    font-size: 1.5vw;
+    padding: 2vw 2vh;
+    border-radius: 2vw;
+    animation: scaleinAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.asas {
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+b {
+    font-weight: 800;
+}
+
+
+@keyframes scaleinAnimation {
+    0% {
+        scale: 0%;
+    }
+    100% {
+        scale: 100%;
+    }
 }
