@@ -92,26 +92,6 @@ body {
 	transform: translate(-50%, -100%);
 }
 
-#ah {
-    display: inline-block;
-    color: #202124;
-    position: absolute;
-    width: 5vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    left: 36.45vw;
-    padding: 0.75vw;
-    border-radius: 1vw;
-    background-color: white;
-    font-size: 0.9vw;
-    top: 11.5vh;
-    z-index: 1;
-    animation: scaleinAnimation ease 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
 .bold{
     font-weight: 800;
     z-index: 1;
