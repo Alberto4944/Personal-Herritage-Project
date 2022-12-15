@@ -84,7 +84,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     width: 0%;
     height: 100vh;
     border-top-right-radius: 5vw; border-bottom-right-radius: 5vw;
-    z-index: 10;
+    z-index: 11;
     position: relative;    
     /* APPLYING TRANSITION TO THE MENU :  */
     

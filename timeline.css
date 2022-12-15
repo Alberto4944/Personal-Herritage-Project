@@ -97,6 +97,72 @@ body {
     z-index: 1;
 }
 
+#fam-photo {
+	/*6016 × 4000 */
+	right: 3vw;
+	top: 55vh;
+	transform-origin: right;
+}
+
+#fam-photo:hover {
+	scale: 700%;
+}
+
+#nanjing {
+	top: 61.5vh;
+	right: 54vw;
+	transform-origin: bottom;
+}
+
+#nanjing:hover {
+	scale: 700%;
+}
+
+#maryland {
+	left: 72.89vw;
+	top: 22vh;
+	margin-bottom: 2vh;
+	transform-origin: right top;
+}
+
+#maryland:hover {
+	scale: 700%;
+}
+
+#jiaxing {
+	left: 9.3vw;
+	top: 22vh;
+	transform-origin: left top;
+}
+
+#jiaxing:hover {
+	scale: 700%;
+}
+
+#urumqi {
+	left: 2.9vw;
+	top: 59vh;
+	transform-origin: left bottom;
+}
+
+#urumqi:hover {
+	scale: 700%;
+}
+
+
+
+#fam-photo, #nanjing, #maryland, #jiaxing, #urumqi {
+	position: absolute;
+	width: 5vw;
+	z-index: 10;
+	border-radius: 0.5vw;
+	transition: 1s;
+}
+
+#fam-photo, #nanjing, #urumqi {
+	margin-top: 1.5vh;
+}
+
 @keyframes scaleinAnimation {
     0% {
         scale: 0%;

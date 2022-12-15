@@ -50,6 +50,11 @@
     transition: 0.75s;
 }
 
-#food:hover, #traditions:hover, #sports:hover, #attitude:hover, #tempo:hover, #conversations:hover, #cleanliness:hover, #parenting:hover, #games:hover {
+.butts > #art:hover ~ .button10 {
+    scale: 150%;
+    transition: 0.75s;
+}
+
+#food:hover, #traditions:hover, #sports:hover, #attitude:hover, #tempo:hover, #conversations:hover, #cleanliness:hover, #parenting:hover, #games:hover, #art {
     scale: 150%;
 }

@@ -123,3 +123,17 @@
     z-index: 5;
     top: 17.5vh;
 }
+
+#art:checked ~ .button10 {
+    left: 8.75vw;
+    z-index: 4;
+    background-color: white;
+    color: black;
+    top: 17vh;
+}
+
+#art:checked {
+    left: 9vw;
+    z-index: 5;
+    top: 17.5vh;
+}
