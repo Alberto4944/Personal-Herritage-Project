@@ -20,15 +20,11 @@ body {
 .USA {
     left: 22.5vw;
     background-color: #5fddf6;
-    color: black;
 }
 
-.USA, .CAN, .CHI > p {
-    font-weight: 600;
-}
-
-.USA > p {
-    font-size: 0.9vw;
+.USA > p, .CAN > p, .CHI > p {
+    font-weight: 700;
+    font-size: 0.8187vw;
 }
 
 .CAN {
@@ -63,6 +59,11 @@ body {
     transform: translate(-50%, -50%);
     transition: 1s;
     border-radius: 1vw;
+}
+
+.all > p {
+    font-weight: 700;
+    font-size: 0.8187vw;
 }
 
 /* Myself Arrows */ 
@@ -168,9 +169,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.25vw;
+    font-size: 0.9vw;
     text-align: center;
     border-radius: 1vw;
+    padding-left: 0.1vw; padding-right: 0.1vw;
 }
 
 /* Family Tree Arrows */
@@ -783,7 +785,7 @@ span {
     transform: translate(-50%, -50%);
     left: 50vw;
     top: 35vh;
-    font-size: 1.35vw;
+    font-size: 2.75vh;
     padding: 2vw 2vh;
     border-radius: 2vw;
     animation: scaleinAnimation ease 3s;
@@ -792,7 +794,7 @@ span {
 }
 
 .asas {
-    font-size: 2vw;
+    font-size: 4vh  ;
     font-weight: 900;
 }
 
@@ -818,7 +820,7 @@ b {
     transform: translate(-50%, -50%);
     left: 50vw;
     top: 75vh;
-    font-size: 1.35vw;
+    font-size: 2.75vh;
     padding: 1vw 1vh;
     border-radius: 2vw;
     animation: scaleinAnimation ease 3s;
